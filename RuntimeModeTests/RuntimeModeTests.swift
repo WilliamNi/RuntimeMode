@@ -22,7 +22,12 @@ class RuntimeModeTests: XCTestCase {
     }
     
     func testRuntimeMode() {
-        print("Currently running at: \(RuntimeMode.curMode().rawValue) Mode")
+        switch RuntimeMode.curMode {
+        case .Debug:
+            print("Currently running at Debug Mode")
+        case .Release:
+            print("Currently running at Release Mode")
+        }
     }
     
 

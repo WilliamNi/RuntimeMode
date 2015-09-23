@@ -18,12 +18,8 @@ public enum RuntimeMode:String{
     case Release
     case Debug
     
-    /**
-    get current runtime mode
-    
-    - returns: runtime mode
-    */
-    static func curMode() -> RuntimeMode {
+    /// Get current runtime mode
+    static var curMode:RuntimeMode {
         var mode:RuntimeMode = .Release
         
         assert(RuntimeMode.internalTest(&mode))
