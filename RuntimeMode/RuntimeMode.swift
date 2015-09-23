@@ -2,7 +2,7 @@
 //  RuntimeModeTests.swift
 //  RuntimeModeTests
 //
-//  Created by ixprt13 on 9/22/15.
+//  Created by williamni on 9/22/15.
 //  Copyright © 2015 williamni. All rights reserved.
 //
 
